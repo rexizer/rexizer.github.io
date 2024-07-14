@@ -65,27 +65,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // updateSlider(); // Обновить кнопки в начале
 });
 
-function adjustFontSize() {
-  const elements = document.querySelectorAll('h1, h2, h3, p, div, input, span, a, li, button, label');
+// function adjustFontSize() {
+//   const elements = document.querySelectorAll('h1, h2, h3, p, div, input, span, a, li, button, label');
 
-  if (window.innerWidth <= 375) {
-    elements.forEach(element => {
-      const currentFontSize = window.getComputedStyle(element).fontSize;
-      if (!element.hasAttribute('data-original-font-size')) {
-        element.setAttribute('data-original-font-size', currentFontSize);
-      }
-      const newFontSize = parseFloat(element.getAttribute('data-original-font-size')) * 0.99;
-      element.style.fontSize = `${newFontSize}px`;
-    });
-  } else {
-    elements.forEach(element => {
-      if (element.hasAttribute('data-original-font-size')) {
-        element.style.fontSize = element.getAttribute('data-original-font-size');
-        element.removeAttribute('data-original-font-size');
-      }
-    });
-  }
-}
+//   if (window.innerWidth <= 375) {
+//     elements.forEach(element => {
+//       const currentFontSize = window.getComputedStyle(element).fontSize;
+//       if (!element.hasAttribute('data-original-font-size')) {
+//         element.setAttribute('data-original-font-size', currentFontSize);
+//       }
+//       const newFontSize = parseFloat(element.getAttribute('data-original-font-size')) * 0.99;
+//       element.style.fontSize = `${newFontSize}px`;
+//     });
+//   } else {
+//     elements.forEach(element => {
+//       if (element.hasAttribute('data-original-font-size')) {
+//         element.style.fontSize = element.getAttribute('data-original-font-size');
+//         element.removeAttribute('data-original-font-size');
+//       }
+//     });
+//   }
+// }
 
 window.addEventListener('resize', adjustFontSize);
 window.addEventListener('DOMContentLoaded', adjustFontSize); // Вызов функции при загрузке страницы
