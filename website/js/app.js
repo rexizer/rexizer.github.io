@@ -5,5 +5,5 @@ if (tg) {
  
 
 } else {
-  window.location.href = 'pages/404.html';
+  window.location.href = '/pages/404.html';
 } 
