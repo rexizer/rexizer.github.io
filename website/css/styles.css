@@ -5,6 +5,16 @@
     font-weight: bold;
 }
 
+body{
+    font-size: 100%;
+}
+
+@media (max-width: 350px) {
+    body{
+        font-size: 70% !important;
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -634,4 +644,23 @@ a:hover{
     margin-bottom: 150px;
 }
 
+  
+/* popup.css | file:///C:/Users/user/Desktop/general/sites/success/megaTon/website/css/popup.css */
+
+#popup .popup-content {
+    /* padding: 30px; */
+    padding: 30px 5px;
+  }
+  
+  @media (max-width: 350px) {
+    .booster-options {
+      transform: none !important;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .booster-options {
+      transform: none !important;
+    }
+  }
   
