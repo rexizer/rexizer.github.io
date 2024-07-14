@@ -1,7 +1,8 @@
 let tg = window.Telegram.WebApp;
 
 if (tg.initDataUnsafe.user.id) {
-  tg.expand(); 
+  tg.expand();
+  document.body.innerHTML = '<h1>тест</h1><p>тест.</p>';
  
 
 } else {
