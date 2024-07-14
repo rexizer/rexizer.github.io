@@ -36,6 +36,12 @@
   }
 }
 
+@media (max-width: 350px){
+  .booster-options {
+    transform: scale(.9) translateX(-10%);
+  }
+}
+
 .popup2-header {
   display: block;
   text-align: center;
