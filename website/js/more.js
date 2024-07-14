@@ -74,7 +74,7 @@ function adjustFontSize() {
       if (!element.hasAttribute('data-original-font-size')) {
         element.setAttribute('data-original-font-size', currentFontSize);
       }
-      const newFontSize = parseFloat(element.getAttribute('data-original-font-size')) * 0.95;
+      const newFontSize = parseFloat(element.getAttribute('data-original-font-size')) * 0.99;
       element.style.fontSize = `${newFontSize}px`;
     });
   } else {
