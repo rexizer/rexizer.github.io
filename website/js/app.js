@@ -1,3 +1,9 @@
 let tg = window.Telegram.WebApp;
 
-tg.expand();
+if (tg) {
+  tg.expand(); 
+ 
+
+} else {
+  window.location.href = 'pages/404.html';
+} 
