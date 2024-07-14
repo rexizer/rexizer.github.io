@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission</title>
+	<meta name="description" content="Subscribe and earn with MEGATON Miner. Earn 0.001 TON per social media subscription and enjoy instant withdrawals to Tonkeeper or Telegram Wallet.">
+    <meta name="keywords" content="MEGATON Miner, mission, subscribe and earn, social media, TON cryptocurrency, rewards, Tonkeeper, Telegram Wallet">
+    <link rel="stylesheet" href="../css/mission.css">
+    <link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/more.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body style="background-color: #EFEEF4;">
+    <div class="container">
+        <header>
+            <div class="header-title">
+                <img src="../images/logo.png" alt="Logo" class="header-logo">
+                <div class="header-text">
+                    <span>MEGA TON</span>
+                    <span>MINER</span>
+                </div>
+            </div>
+        </header>
+        <main>
+          <div class="container2">
+            <div class="header">
+              <img src="../images/gift.png" alt="">
+            </div>
+            <div class="content">
+              <h2><img style="width: 25px;" src="../images/logo.png" alt="Company Logo" class="main-logo">Subscribe and Earn</h2>
+              <p>Earn 0.001 TON per social media subscription, with instant withdrawals to Tonkeeper or Telegram Wallet (min. 0.4 TON).</p>
+            </div>
+            <div class="tasks" id="tasks">
+              <div class="task" onclick="toggleTask(this)">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Icon">
+                <div class="task-info">
+                  <p><strong>Hello world</strong></p>
+                  <p>+ 100 <i class="fas fa-coins"></i></p>
+                </div>
+                <i class="fas fa-times-circle"></i>
+              </div>
+              <div class="task" onclick="toggleTask(this)">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Icon">
+                <div class="task-info">
+                  <p><strong>Join Chat Group</strong></p>
+                  <p>+ 500 <i class="fas fa-coins"></i></p>
+                </div>
+                <i class="fas fa-times-circle"></i>
+              </div>
+            </div>
+            <div class="pagination" id="pagination"></div>
+          </div>
+        </main>
+        <footer>
+            <nav class="navigation">
+                <a class="nav-item home" href="../index.html">
+                    <img src="../images/home.png" alt="Home">
+                    <span>Home</span>
+                </a>
+                <a class="nav-item invite" href="../pages/invite.html">
+                    <img src="../images/invite.png" alt="Invite">
+                    <span>Invite</span>
+                </a>
+                <a class="nav-item more" id="more-btn">
+                    <img src="../images/more.png" alt="More">
+                    <span>More</span>
+                </a>
+                <a class="nav-item wallet" href="wallet.html">
+                    <img src="../images/wallet.png" alt="Wallet">
+                    <span>Wallet</span>
+                </a>
+            </nav>
+            <div class="hidden-buttons-container" id="hidden-buttons">
+                <div class="arrow" id="left-arrow">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="hidden-button-wrapper">
+                    <div class="hidden-button-container" id="hidden-button-container">
+                      <a class="hidden-button" href="about.html">
+                        <img src="../images/about.png" alt="About Us">
+                        <span>About</span>
+                      </a>
+                      <a class="hidden-button" href="mission.html">
+                          <img src="../images/mission.png" alt="Mission">
+                          <span>Mission</span>
+                      </a>
+                      <a class="hidden-button" href="proof.html">
+                          <img src="../images/proof.png" alt="Proof">
+                          <span>Proof</span>
+                      </a>
+                      <a class="hidden-button" href="roadmap.html">
+                          <img src="../images/roadmap.png" alt="Roadmap">
+                          <span>Roadmap</span>
+                      </a>
+                      <a class="hidden-button" href="faq.html">
+                          <img src="../images/faq.png" alt="FAQ">
+                          <span>FAQ</span>
+                      </a>
+                      <a class="hidden-button" href="games.html">
+                          <img src="../images/games.png" alt="Games">
+                          <span>Games</span>
+                      </a>
+					  <a class="hidden-button" href="disclaimer.html">
+                           <img src="../images/disclaimer.png" alt="Disclaimer">
+                           <span>Disclaimer</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="arrow" id="right-arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../js/button.js"></script>
+    <script src="../js/more.js"></script>
+    <script src="../js/mission.js"></script>
+</body>
+</html>

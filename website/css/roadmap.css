@@ -1,0 +1,433 @@
+.schedules__time::after, .schedules__time::before, .card__title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  z-index: calc(1-5);
+  transform: translate(-50%, -50%);
+  width: 19.2px; 
+  height: 19.2px;
+  border-radius: 50%;
+  background-color: inherit;
+  box-shadow: inset 0 0 0 5.485714286px; 
+  transition: all 0.5s;
+}
+
+.container {
+  background-color: transparent !important;
+}
+
+.box{
+  width: 100% !important;
+}
+
+main{
+  max-width: 100%;
+  width: 100%;
+  padding-bottom: 55px;
+}
+
+.cards {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+.img_card{
+  position: absolute;
+  top: 27px; 
+  left: 0;
+  display: block;
+  width: 40px; 
+}
+
+.card {
+  text-align: left !important;
+  position: absolute;
+  z-index: calc(1-5);
+  height: 100%;
+  overflow: hidden;
+  border-radius: 24px; 
+  color: #fff;
+  transition: all 0.5s;
+  background-image: linear-gradient(to right, transparent calc(24px - 3px), #000000 calc(24px - 3px), #000000 calc(24px + 3px), transparent calc(24px + 3px)); 
+  counter-increment: card;
+  width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0 12px 18px rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.cards {
+  position: relative;
+  height: 800px; 
+  overflow: hidden; 
+  margin-bottom: 0px; 
+}
+
+main {
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.card.is-active{
+  color: white;
+  background-image: linear-gradient(to right, transparent calc(24px - 3px), #ffffff calc(24px - 3px), #ffffff calc(24px + 3px), transparent calc(24px + 3px)); 
+}
+.card:nth-of-type(1)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 24px; 
+  z-index: calc(0-5);
+  transform: translateX(-50%);
+  width: 12px;
+  height: 32px;
+  background-color: inherit;
+}
+.card:nth-of-type(1) {
+  box-shadow: none !important;
+  transform: translateY(calc(0 * (100% - 24px))); 
+}
+.card:nth-of-type(2) {
+  transform: translateY(calc(0.2 * (100% - 24px))); 
+}
+.card:nth-of-type(3) {
+  transform: translateY(calc(0.4 * (100% - 24px))); 
+}
+.card:nth-of-type(4) {
+  transform: translateY(calc(0.6 * (100% - 24px))); 
+}
+.card:nth-of-type(5) {
+  transform: translateY(calc(0.8 * (100% - 24px))); 
+}
+
+.cards.is-active .card {
+  transform: translateY(0) !important;
+}
+
+.cards.is-active .card{
+  box-shadow: none !important;
+}
+
+.cards.is-active .card.is-active {
+  background-color: #276699;
+  transform: translateY(8%) !important;
+}
+.cards.is-active .card.is-active .card__title {
+  transform: translateY(0);
+}
+.cards.is-active .card.is-active .card__title::after {
+  transform: scale(1);
+}
+.cards.is-active .card.is-active .schedules {
+  opacity: 1;
+}
+.cards.is-active .card:nth-of-type(1).is-active {
+  transform: translateY(0%) !important;
+}
+.cards.is-active .card.is-active ~ .card {
+  transform: translateY(100%) !important;
+}
+.cards.is-active .card.is-active + .card {
+  transform: translateY(calc(92.5% - 24px)) !important; 
+}
+.cards.is-active .card__title {
+  transform: scale(0.6) translate(-30%, -25%);
+}
+.cards.is-active .card__title::after {
+  transform: scale(0.6);
+}
+
+.cards.is-active .card:not(.is-active) .card__title::before {
+  transform: scale(1.5) translate(-25px, -30px);
+}
+
+.card__title {
+  position: relative;
+  margin: 0 24px 4px 48px; 
+  padding-top: 16px; 
+  background-color: inherit;
+  font-size: 40px; 
+  font-weight: 900;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: transform 0.3s;
+  padding-left: 52.8px; 
+}
+.card__title::after {
+  content: "Target " counter(card);
+  display: block;
+  transition: transform 0.3s;
+  transform-origin: 0% 50%;
+  margin-top: 24px; 
+  margin-left: -48px; 
+}
+.card__title::before {
+  top: calc(50% + 8px); 
+  box-shadow: inset 0 0 0 5.485714286px;
+}
+.card.is-active .card__title::before {
+  box-shadow: inset 0 0 0 19.2px; 
+}
+
+.schedules {
+  background-color: inherit;
+  max-height: calc(100% - 64px);
+  background-image: inherit;
+  padding-left: 48px; 
+  padding-right: 24px; 
+  padding-bottom: 114px;
+  overflow: auto;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.schedules__time {
+  position: relative;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  background-color: #34669A; /* Change this to your preferred background color */
+  color: #fff; /* White text color */
+  font-size: 15px;
+  font-weight: bold; /* Makes the font bold */
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 8px; /* Adjust the value for more or less rounded corners */
+  border: 2px solid #fff; /* Adds a white border */
+}
+
+.schedules__time::before {
+  font-size: 1.6em;
+  box-shadow: none;
+  transform: translate(-50%, -50%) scale(0);
+  transition-delay: 0.3s;
+}
+.schedules__time::after {
+  width: 9.6px; 
+  height: 9.6px; 
+  box-shadow: inset 0 0 0 19.2px; 
+  transform: translate(-50%, -50%) scale(0);
+  transition-delay: 0.5s;
+}
+.card.is-active .schedules__time::before, .card.is-active .schedules__time::after {
+  transform: translate(-50%, -50%) scale(1);
+  transition-delay: 0.3s;
+}
+.card.is-active .schedules__time::after {
+  transition-delay: 0.35s;
+}
+
+.schedules__info {
+  margin-bottom: 16px; 
+}
+
+.new-card {
+  position: relative;
+  z-index: calc(1-5);
+  width: 100%;
+  height: 96px; 
+  margin-top: -24px; 
+  border: none;
+  border-radius: 24px; 
+  outline: none;
+  font-size: 19.2px; 
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #999;
+  background: #fff;
+  cursor: pointer;
+}
+.new-card:active {
+  top: 1px;
+}
+.new-card::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 14.4px; 
+  height: 14.4px; 
+  margin-right: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 3px;
+  background-image: linear-gradient(0deg, transparent calc(50% - 1px), currentColor calc(50% - 1px), currentColor calc(50% + 1px), transparent calc(50% + 1px)), linear-gradient(90deg, transparent calc(50% - 1px), currentColor calc(50% - 1px), currentColor calc(50% + 1px), transparent calc(50% + 1px));
+}
+
+.box {
+  width: 360px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  line-height: 1.5;
+  border-radius: 24px; 
+  box-shadow: 0 24px 96px -16px rgba(0, 0, 0, 0.3);
+  z-index: calc(-1-5);
+}
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #d4ffe4;
+  color: #222;
+}
+
+.intro {
+  width: 80%;
+  max-width: 480px;
+  padding-bottom: 16px;
+  margin: 0 auto 16px;
+  padding-top: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  text-shadow: 0 16px 16px rgba(255, 255, 255, 0.8), 0 32px 80px rgba(0, 0, 0, 0.3);
+}
+.intro small {
+  display: block;
+  opacity: 0.5;
+  font-style: italic;
+  text-transform: none;
+}
+
+.info {
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 16px;
+  font-size: 14.4px;
+  font-style: italic;
+  font-family: serif;
+  text-align: right;
+  opacity: 0.5;
+}
+
+.info a {
+  color: inherit;
+}
+
+.cards.is-active .card:not(.is-active) .card__title::before {
+  transform: scale(1.5) translate(-40px, -30px) !important;
+}
+
+@media (min-width: 1110px) {
+  main{
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-38px, -30px) !important;
+  }
+}
+
+@media (min-width: 1250px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-45px, -30px) !important;
+  }
+}
+
+@media (min-width: 1700px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-55px, -30px) !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-60px, -30px) !important;
+  }
+}
+
+@media (min-height: 975px) {
+  .cards{
+    height: 900px;
+  }
+}
+
+@media (min-height: 1120px) {
+  .cards{
+    height: 1000px;
+  }
+  .card__title{
+    font-size: 3.8em;
+    padding-left: 70px;
+  }
+  .card__title::after {
+    margin-left: -70px;
+  }
+  .schedules{
+    font-size: 1.5em;
+  }
+  .img_card{
+    padding-top: 12px;
+    width: 60px;
+    margin-right: 15px;
+  }
+}
+
+@media (min-height: 1200px) {
+  .cards{
+    height: 1150px;
+  }
+}
+
+@media (min-height: 1375px) {
+  .cards{
+    height: 1250px;
+  }
+  .card__title::after {
+    margin-top: 35px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-35px, -30px) !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-28px, -30px) !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-25px, -30px) !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-23px, -30px) !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards.is-active .card:not(.is-active) .card__title::before {
+    transform: scale(1.5) translate(-22px, -30px) !important;
+  }
+}

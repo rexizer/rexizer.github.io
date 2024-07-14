@@ -1,0 +1,242 @@
+[
+  {
+    "name": "User1",
+    "reward": 50,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User2",
+    "reward": 60,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User3",
+    "reward": 70,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User4",
+    "reward": 80,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User5",
+    "reward": 90,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User6",
+    "reward": 100,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User7",
+    "reward": 110,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User8",
+    "reward": 120,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User9",
+    "reward": 130,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User10",
+    "reward": 140,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User11",
+    "reward": 150,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User12",
+    "reward": 160,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User13",
+    "reward": 170,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User14",
+    "reward": 180,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User15",
+    "reward": 190,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User16",
+    "reward": 200,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User17",
+    "reward": 210,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User18",
+    "reward": 220,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User19",
+    "reward": 230,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User20",
+    "reward": 240,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User11",
+    "reward": 150,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User12",
+    "reward": 160,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User13",
+    "reward": 170,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User14",
+    "reward": 180,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User15",
+    "reward": 190,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User16",
+    "reward": 200,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User17",
+    "reward": 210,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User18",
+    "reward": 220,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User19",
+    "reward": 230,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User20",
+    "reward": 240,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User11",
+    "reward": 150,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User12",
+    "reward": 160,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User13",
+    "reward": 170,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User14",
+    "reward": 180,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User15",
+    "reward": 190,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User16",
+    "reward": 200,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User17",
+    "reward": 210,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User18",
+    "reward": 220,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User19",
+    "reward": 230,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  },
+  {
+    "name": "User20",
+    "reward": 240,
+    "avatar": "../images/user2.png",
+    "bonus": "+2%"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "question": "What is MEGATON Miner?",
+    "answer": "MEGATON Miner is a platform that offers unique opportunities to invest in liquidity pools and receive daily interest income on your investments. Our platform allows you to choose from various liquidity pools and automatically receive income every day. We work with the TON blockchain and support the TON cryptocurrency.",
+    "id": "1",
+    "image": "../images/question.png"
+  },
+  {
+    "question": "How do I get started with MEGATON Miner?",
+    "answer": "To get started with us, you first need to select a specific miner power and make a minimum or maximum deposit in TON cryptocurrency. Once this is done, you will start receiving daily interest for 30 days, until the end of the specified miner power period.",
+    "id": "2",
+    "image": "../images/question.png"
+  },
+  {
+    "question": " What happens after the 30-day investment period?",
+    "answer": "After the 30-day period, you will receive your initial investment and the accumulated profit. If you wish to continue earning, you will need to reinvest in the same manner for another 30 days.",
+    "id": "3",
+    "image": "../images/question.png"
+  },
+  {
+    "question": "What social media platforms is MEGATON Miner on?",
+    "answer": "We are establishing our presence on major social media platforms including Telegram, Twitter, and Instagram. Follow us on these platforms to stay updated on the latest news and updates.",
+    "id": "4",
+    "image": "../images/question.png"
+  },
+  {
+    "question": "How does MEGATON Miner ensure the security of my investments?",
+    "answer": "We prioritize the security of our users' data and investments by implementing advanced encryption, multi-factor authentication, and regular security audits. Additionally, we are continuously upgrading our server infrastructure to ensure maximum uptime, reliability, and speed.",
+    "id": "5",
+    "image": "../images/question.png"
+  },
+  {
+    "question": "Are there any additional features or games on MEGATON Miner?",
+    "answer": "Yes, we are developing additional games designed to double your profits. These games will incorporate unique mechanics to enhance your earnings and provide a fun, engaging experience.",
+    "id": "6",
+    "image": "../images/question.png"
+  },
+  {
+    "question": "How fast are the transactions on MEGATON Miner?",
+    "answer": "We aim to optimize our platform to support fast and efficient transactions. This ensures that users can quickly deposit, invest, and withdraw funds with minimal delay.",
+    "id": "7",
+    "image": "../images/question.png"
+  }
+]

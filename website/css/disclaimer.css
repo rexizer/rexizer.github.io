@@ -1,0 +1,229 @@
+main{
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: block !important;
+  justify-content: center;
+  margin: 0;
+}
+.container2 {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fab{
+  text-align: center;
+  font-size: 45px; 
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+
+.social-media{
+  justify-content: space-between !important;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  margin: 20px 0 10px;
+  border-radius: 15%;
+  border: 2px solid #007bff;
+  transition: transform .15s linear;
+}
+
+.logo:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.info .photo {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+
+
+
+@media (max-width: 400px) {
+  .tooltip{
+    margin-right: 10px !important;
+    margin-left: -3px;
+  }
+}
+
+@media (max-width: 392px) {
+  .tooltip{
+    margin-right: 10px !important;
+    margin-left: -5px;
+  }
+}
+
+
+@media (max-width: 385px) {
+  .tooltip{
+    margin-right: 10px !important;
+    transform: translateX(-5px);
+  }
+}
+
+@media (max-width: 365px) {
+  .tooltip{
+    margin-right: 10px !important;
+    transform: translateX(-10px);
+  }
+}
+
+
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 20%;
+}
+
+.social-media-icons .tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  transform: translateX(-10px);
+  margin-right: 3px;
+}
+
+.social-media-icons a {
+  font-size: 45px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media-icons img:hover {
+  color: #0056b3;
+}
+
+.social-icon{
+  transform: scale(1);
+  transition: transform .2s linear;
+}
+
+.social-icon:hover{
+  transform: scale(1.1);
+}
+
+.tooltip a img{
+  display: block;
+  width: 50px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+.social-media {
+  margin-top: 25px;
+  margin-bottom: 125px;
+}
+
+.social-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-btn i {
+  margin-right: 8px;
+}
+
+.social-btn.tg {
+  background-color: #0088cc;
+}
+
+.social-btn.twitter {
+  background-color: #1da1f2;
+}
+
+.social-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-5px);
+}
+
+.social-btn.tg:hover {
+  background-color: #006999;
+}
+
+.social-btn.twitter:hover {
+  background-color: #0d95e8;
+}

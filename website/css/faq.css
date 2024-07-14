@@ -1,0 +1,189 @@
+header{
+  width: 100% !important;
+}
+
+.container {
+  background-color: transparent !important;
+}
+
+.faq-section {
+  /* background: #fdfdfd; */
+  min-height: 100vh;
+  padding   : 5vh 0;
+  margin-bottom: 1vh;
+  text-align: left;
+}
+
+@media (min-width: 1100px){
+  .faq-section{
+    margin-top: 100px;
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 1350px){
+  .faq-section{
+    margin-top: 150px;
+    transform: scale(1.2);
+  }
+}
+
+
+.faq-title h2 {
+  position     : relative;
+  margin-bottom: 45px;
+  display      : inline-block;
+  font-weight  : 600 !important;
+  line-height  : 1;
+}
+
+h2.faq-title {
+  font-weight  : 600 !important;
+}
+
+.faq-title h2::before {
+  content    : "";
+  position   : absolute;
+  left       : 50%;
+  width      : 60px;
+  height     : 2px;
+  background : #276699;
+  bottom     : -25px;
+  margin-left: -30px;
+}
+
+.faq-title p {
+  padding      : 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  background   : #FFFFFF;
+  box-shadow   : 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  border-radius: 20px;
+}
+
+.faq .card {
+  border       : none;
+  background   : none;
+  border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card:nth-child(1) .card-header{
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.faq .card:last-child .card-header{
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+.faq .card .card-header {
+  padding           : 0px;
+  border            : none;
+  background        : none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition   : all 0.3s ease 0s;
+  -o-transition     : all 0.3s ease 0s;
+  transition        : all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+  background  : #1d61c729;
+  padding-left: 10px;
+}
+
+.faq .card .card-header .faq-title {
+  width             : 100%;
+  text-align        : left;
+  padding           : 0px;
+  padding-left      : 30px;
+  padding-right     : 30px;
+  font-weight       : 400;
+  font-size         : 15px;
+  letter-spacing    : 1px;
+  color             : #3B566E;
+  text-decoration   : none !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition   : all 0.3s ease 0s;
+  -o-transition     : all 0.3s ease 0s;
+  transition        : all 0.3s ease 0s;
+  cursor            : pointer;
+  padding-top       : 20px;
+  padding-bottom    : 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+  display              : inline-block;
+  width                : 20px;
+  height               : 20px;
+  line-height          : 14px;
+  /* float                : left; */
+  -webkit-border-radius: 100px;
+  -moz-border-radius   : 100px;
+  border-radius        : 100px;
+  text-align           : center;
+  background           : #E91E63;
+  color                : #fff;
+  font-size            : 12px;
+  margin-right         : 20px;
+}
+
+.faq .card .card-body {
+  padding       : 30px;
+  padding-left  : 35px;
+  padding-bottom: 16px;
+  font-weight   : 400;
+  font-size     : 16px;
+  color         : #ffffff;
+  line-height   : 28px;
+  letter-spacing: 1px;
+  border-top    : 1px solid #F3F8FF;
+  background-color: #276699;
+  /* box-shadow: 0 -4px 8px rgba(0, 123, 255, 0.2), 0 4px 8px rgba(0, 123, 255, 0.2); */
+  /* box-shadow: 0 -4px 8px rgba(0, 123, 255, 0.2), 0 4px 8px rgba(0, 123, 255, 0.2), 0 8px 16px rgba(0, 123, 255, 0.2), 0 -8px 16px rgba(0, 123, 255, 0.2); */
+  box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.2), inset 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq .card .card-body p {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 15vh;
+  }
+
+  .faq .card .card-header .faq-title {
+    line-height: 26px;
+    margin-top : 10px;
+  }
+}
+
+@media (max-width: 6000px) {
+  main{
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+ .faq .card .card-header .faq-title{
+    font-size: .85em !important;
+  }
+  .faq-image{
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+.faq-image {
+  width: 40px; /* Установите нужный размер */
+  height: 40px; /* Установите нужный размер */
+  /* border-radius: 50%; */
+  object-fit: cover;
+  margin-right: 10px; /* Расстояние между изображением и текстом */
+  vertical-align: middle;
+  transform: translateY(-2px);
+}

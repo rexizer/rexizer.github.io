@@ -1,0 +1,225 @@
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .transaction:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .transaction_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .transaction_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  
+  .transaction img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+  
+  .transaction-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .transaction-username {
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.1em;
+  }
+
+  .transaction-username img{
+    width: 1.2em;
+    height: 1.2em;
+    transform: translateY(5px);
+    margin-left: 5px;
+    margin: 0;
+  }
+  
+  .transaction-hash a {
+    color: #34db37;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: color 0.3s;
+  }
+  
+  .transaction-hash a:hover {
+    color: #1caa1f;
+  }
+  
+  .check-button {
+    background-color: #417CB3;
+    margin-top: 5px;
+  }
+  
+  .check-button:hover {
+    background-color: #4dab13;
+  }
+  
+  .mission-button.check_user {
+    margin-left: auto;
+  }
+  
+  @media (max-width: 650px) {
+    .transaction-buttons {
+      text-align: right;
+    }
+  }
+  
+  /* Media query for screens less than 550px */
+  @media (max-width: 550px) {
+
+    .transaction-username img{
+      width: 1.3em !important;
+      height: 1.3em !important;
+      margin-right: 0px !important;
+      transform: translateY(3.5px);
+    }
+    .pagination{
+        transform: scale(.8) !important;
+    }
+
+    .check-button{
+        padding: 7px 10px !important;
+    }
+
+    .container2 {
+      font-size: 13px !important;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    /* .transaction {
+      flex-direction: column;
+      align-items: flex-start;
+    } */
+  
+    .transaction_left {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .transaction_right {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+    }
+  
+    .transaction img {
+      width: 65px;
+      height: 65px;
+      margin-right: 5px;
+    }
+  
+    .transaction-info {
+      max-width: 140px;
+      margin-right: 10px;
+    }
+  
+    .transaction-username,
+    .check-button {
+      margin: 0;
+    }
+
+    .transaction-username{
+      margin-bottom: 5px;
+    }
+  
+    .mission-button.check_user {
+      margin: 3px 0 !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .header img{
+        width: 100px !important;
+    }
+
+    .transaction-info {
+      width: 160px;
+      margin-right: 10px;
+    }
+  }
+
+/* Media query for screens less than 450px */
+@media (max-width: 450px) {
+    .transaction {
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .transaction_left {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .transaction img {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px;
+    }
+  
+    .transaction-buttons {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    .transaction-username {
+      font-size: 1em;
+    }
+  
+    .mission-button.check_user {
+      width: auto;
+      margin: 0 5px;
+      padding: 10px 15px !important;
+    }
+
+    .check-button{
+        padding: 3px 10px !important;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .transaction-info {
+      max-width: 190px !important;
+    }
+
+    .transaction_right {
+        width: 60% !important;
+    }
+  
+    .check-button {
+        max-width: 160px;
+        width: 100%!important; /* Установите нужную ширину */
+    }
+  }
+
+  @media (max-width: 390px) {
+    .transaction-info{
+      width: 90% !important;
+      margin-right: 0 !important;
+    }
+  }

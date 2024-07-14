@@ -1,0 +1,182 @@
+.ton-balance{
+  display: block;
+  text-align: left;
+  padding-top: 3px;
+}
+
+.ton-balance div{
+  color: #828282;
+  font-weight: 300;
+  font-size: .9em;
+}
+
+.ton-balance b{
+  font-weight: 700;
+}
+
+.header h1{
+  text-align: center !important;
+  margin: 20px 0 5px;
+}
+
+.header{
+  margin-top: 20px;
+  padding-bottom: 30px !important;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  background-color: white !important;
+  padding: 15px;
+}
+
+main h1{
+  font-size: 1.7em;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.withdraw-btn{
+  padding: 13px 20px;
+  border-radius: 20px;
+}
+
+.withdraw-btn--2{
+  width: 100%;
+  padding: 15px 30px;
+}
+
+.wallet-list{
+  margin-bottom: 70px;
+}
+
+.pagination{
+  margin-top: -30px;
+}
+
+.invitee-item{
+  margin-bottom: 10px;
+}
+
+.name-and-bonus{
+  display: flex;
+  flex-direction: row;
+}
+
+.name-and-bonus p{
+  margin-right: 7px;
+}
+
+
+
+
+
+.invitee-details {
+  display: flex;
+  align-items: center;
+}
+
+.name-and-bonus {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.name-bonus-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.invitee-name {
+  margin: 0;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.invitee-bonus {
+  margin: 0;
+  font-size: 12px;
+  /* color: green; */
+  color: black !important;
+}
+
+.invitee-date {
+  font-size: 12px;
+  color: gray;
+  margin-top: 2px;
+}
+
+.invitee-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.invitee-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.invitee-reward {
+  background-color: #0088cc;
+  border: 3px solid #0088cc;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 8px 8px;
+  border-radius: 12px;
+  font-size: 11.5px;
+  margin-left: 8px;
+  transition: transform .1s linear;
+}
+
+.invitee-reward:hover{
+  transform: scale(1.05);
+}
+
+.small-avatar {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+
+
+/* wallet.css | http://127.0.0.1:5500/css/wallet.css */
+
+.invitee-bonus {
+  /* color: green; */
+}
+
+/* invite.css | http://127.0.0.1:5500/css/invite.css */
+
+.invitee-bonus {
+  /* color: green; */
+}
+
+/* Element | http://127.0.0.1:5500/pages/wallet.html */
+
+div.invitee-item > div > div > p {
+  color: green;
+}
+
+.your_ton{
+  text-align: center;
+  display: flex;
+  text-align: center !important;
+  justify-content: center;
+}
+
+.your_ton img{
+  /* display: block; */
+  transform: translate(-5px, -5px);
+  width: 45px;
+}
