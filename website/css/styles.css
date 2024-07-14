@@ -620,7 +620,7 @@ progress::-moz-progress-bar {
 }
 
 @media (max-width: 460px){
-main{transform: scale(.95);}
+main{body: font-size: .95em;}
 }
 
 a:hover{
