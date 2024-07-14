@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 
-if (tg) {
+if (tg.initDataUnsafe.user.id) {
   tg.expand(); 
  
 
