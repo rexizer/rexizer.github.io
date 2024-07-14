@@ -293,6 +293,28 @@
   .task-reward img{
     margin-right: 0 !important;
   }
+
+  .task_right {
+    /* margin-left: 30px; */
+    margin-left: 0;
+  }
+  .task-reward b {
+    /* margin-right: 5px; */
+    /* width: 5%; */
+    margin-right: 3px;
+  }
+  .task_left {
+    flex-wrap: nowrap;
+    font-size: 12px;
+  }
+  .task img {
+    /* margin-right: 10px; */
+    margin-right: 8px;
+  }
+  .buttons {
+    /* max-width: 200px; */
+    max-width: 125px;
+  }
 }
 
 
