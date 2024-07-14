@@ -619,6 +619,10 @@ progress::-moz-progress-bar {
     }
 }
 
+@media (max-width: 2796x1290){
+main{transform: scale(.95);}
+}
+
 a:hover{
     text-decoration: none;
     color: inherit !important;
