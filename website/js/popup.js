@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const screenWidth = window.screen.width;
+  const screenHeight = window.screen.height;
+  console.log(screenWidth,screenHeight);
     const upgradeBtn = document.querySelector('.upgrade-btn');
     const popup = document.getElementById('popup');
     const secondaryClosePopup = document.getElementById('secondary-close-popup');
