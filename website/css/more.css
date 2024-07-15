@@ -91,6 +91,10 @@
     .hidden-button span{
         margin: 0 auto;
     }
+
+    .navigation.show {
+        transform: translateY(-106px); /* Отрегулируйте значение по необходимости */
+    }
 } 
 
 .hidden-button img {
