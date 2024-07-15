@@ -682,7 +682,9 @@ a:hover{
         transform: scale(.9);
     }
     
-
+    .tooltip{
+        transform: translateX(-20px);
+    }
   }
   
   

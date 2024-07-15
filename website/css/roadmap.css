@@ -431,6 +431,10 @@ body {
     transform: scale(1.5) translate(-22px, -30px) !important;
   }
 
+  .cards{
+    height: 790px;
+  }
+
   .card {
     font-size: .1em !important;
   }
