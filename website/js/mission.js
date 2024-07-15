@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', function() {
       link: 'https://example.com/mission2'
     },
 	{
-      img: '/images/jointwitter.png',
+      img: 'images/jointwitter.png',
       name: 'Telegram Icon',
       title: 'Join Twitter',
       reward: 0.001,
       link: 'https://example.com/mission1'
     },
     {
-      img: '/images/social.png',
+      img: 'images/social.png',
       name: 'Telegram Icon',
       title: 'Join Instagram',
       reward: 0.001,
