@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
 //   }
 // }
 
-window.addEventListener('resize', adjustFontSize);
-window.addEventListener('DOMContentLoaded', adjustFontSize); // Вызов функции при загрузке страницы
+// window.addEventListener('resize', adjustFontSize);
+// window.addEventListener('DOMContentLoaded', adjustFontSize); // Вызов функции при загрузке страницы
 
 $(document).ready(function(){
     $('.hidden-button-container').slick({
