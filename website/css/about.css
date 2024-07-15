@@ -104,6 +104,12 @@ main{
   }
 }
 
+@media (max-width: 350px){
+  .social-media-icons{
+    transform: translateX(-10px);
+  }
+}
+
 
 
 .social-media-icons {

@@ -378,3 +378,10 @@
   background-color: #c0c0c0;
   cursor: not-allowed;
 }
+
+
+@media (max-width: 325px){
+  .invitee-details img{
+    margin-right: 0px !important;
+  }
+}

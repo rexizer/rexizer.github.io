@@ -178,6 +178,22 @@ h2.faq-title {
   }
 }
 
+@media (max-width: 350px){
+  .faq .card .card-header .faq-title{
+    font-size: 1.2em !important;
+  }
+
+  .faq .card .card-header .faq-title {
+    line-height: 19px;
+  }
+
+  .faq .card .card-header .faq-title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
 .faq-image {
   width: 40px; /* Установите нужный размер */
   height: 40px; /* Установите нужный размер */
