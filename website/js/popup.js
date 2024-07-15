@@ -144,6 +144,31 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
             </div>
           `;
+
+
+          const clickableBlock = document.getElementById('.popup2-content');
+          const inputField = document.getElementById('.frame input');
+        
+          let initialViewportHeight = window.innerHeight;
+        
+          // Функция для проверки, открыта ли клавиатура
+          function isKeyboardOpen() {
+            return window.innerHeight < initialViewportHeight;
+          }
+        
+          clickableBlock.addEventListener('click', () => {
+            if (isKeyboardOpen()) {
+              // Убираем фокус с элемента ввода, чтобы закрыть клавиатуру
+              inputField.blur();
+            }
+          });
+        
+          // Обновляем начальную высоту окна при изменении размера окна
+          window.addEventListener('resize', () => {
+            if (window.innerHeight > initialViewportHeight) {
+              initialViewportHeight = window.innerHeight;
+            }
+          });
       
           document.body.appendChild(walletPopup);
           setTimeout(() => {

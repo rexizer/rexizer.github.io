@@ -93,7 +93,7 @@
     }
 
     .navigation.show {
-        transform: translateY(-106px); /* Отрегулируйте значение по необходимости */
+        transform: translateY(-105px) !important; /* Отрегулируйте значение по необходимости */
     }
 } 
 
