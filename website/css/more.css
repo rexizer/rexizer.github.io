@@ -82,12 +82,16 @@
         flex: 0 0 23%; /* Две кнопки в ряду на экранах шириной 768px и меньше 
     }
 }
-
+*/
 @media (max-width: 480px) {
     .hidden-button {
-        flex: 0 0 16%; /* Одна кнопка в ряду на экранах шириной 480px и меньше 
+        padding: 0px;
     }
-} */
+
+    .hidden-button span{
+        margin: 0 auto;
+    }
+} 
 
 .hidden-button img {
     width: 55px;
