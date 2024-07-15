@@ -656,7 +656,37 @@ a:hover{
     .booster-options {
       transform: none !important;
     }
+
+    .ton-balance {
+        font-size: 17px;
+    }
+    
+    .ton-value {
+        font-size: 30px;
+    }
+    
+    .ton-icon2 {
+        width: 40px;
+        height: 40px;
+    }
+    
+    main {
+        padding: 7px;
+    }
+    
+    .withdraw-btn {
+        font-size: 13px;
+    }
+
+    .booster-option {
+        transform: scale(.9);
+    }
+    
+
   }
+  
+  
+
   
   @media (max-width: 400px) {
     .booster-options {
