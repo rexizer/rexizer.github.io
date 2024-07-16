@@ -104,6 +104,13 @@ main{
   }
 }
 
+@media (max-width: 335px) {
+  .tooltip{
+    margin-right: 10px !important;
+    transform: translateX(-20px) !important;
+  }
+}
+
 
 
 .social-media-icons {
