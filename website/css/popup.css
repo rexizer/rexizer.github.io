@@ -40,6 +40,14 @@
   .booster-options {
     transform: scale(.9) translateX(-10%);
   }
+  
+  .popup-content {
+    font-size: 13px !important;
+  }
+
+  .booster-option {
+    padding: 7px !important;
+  }
 }
 
 .popup2-header {
