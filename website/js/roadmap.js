@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
           const p = document.createElement('p');
           const span = document.createElement('span');
           span.textContent = data.texts[i];
-	  span.style = "font-size: 200px;"
+	  span.style = "font-size: 20px;"
           p.appendChild(span);
           dd.appendChild(p);
 
